@@ -1,0 +1,15 @@
+{
+  "name": "lucas",
+  "version": "1.0.0",
+  "description": "O teorema de Lucas varrido em Node puro: binomial mod p pelos digitos, conferido contra o binomial exato e contra o teorema de Kummer.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "medir": "node ferramentas/medidor.js"
+  },
+  "license": "MIT",
+  "private": false
+}
